@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>星爆氣流斬</title>
+</head>
+
+<body>
+    <h1>留 言 板 </h1>
+    <form action="/message" method="post">
+        <textarea name="author" rows="1" cols="40" placeholder="Your name"></textarea>
+        <br>
+        <textarea name="message" rows="8" cols="40" placeholder="Content"></textarea>
+        <br>
+        <button type="submit">leave a message</button>
+    </form><br>
+    <form action="/" method="POST">
+        <button type="submit">Home page</button>
+    </form>
+    {{message}}
+</body>
+
+</html>

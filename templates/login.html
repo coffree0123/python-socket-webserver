@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>星爆氣流斬</title>
+</head>
+
+<body>
+    <h1>LOGIN </h1>
+    <img src="img/boss" width="500" height="400" />
+    <audio src="https://www.csie.ntu.edu.tw/~b07502159/login_bgm.mp4" controls autoplay=true loop=true>
+        <p>If you are reading this, it is because your browser does not support the audio element.</p>
+    </audio>
+    <form action="/login" method="POST">
+        <textarea name="username" rows="1" cols="40" placeholder="Your name"></textarea>
+        <br>
+        <textarea name="password" rows="1" cols="40" placeholder="Your password"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form><br>
+    <form action="/create_account" method="POST">
+        <button type="submit">Create Account</button>
+    </form><br>
+    <form action="/message" method="POST">
+        <button type="submit">Message Board</button>
+    </form><br>
+    {{message}}
+</body>
+
+</html>
